@@ -32,7 +32,7 @@ _G.Primary = Color3.fromRGB(159, 237, 14)
 _G.Dark = Color3.fromRGB(35, 36, 35)
 ----------------------------------------------------------------------------------------------------------------------------------------
 _G.TieuDe = "WORLD HUB"
-_G.ThongBao = "[+] Sourcode Open"
+_G.ThongBao = "Script Mới Mở Thôi Chưa Update Thêm Nhé"
 _G.ThongBaoChoose = "Cracked World Blox Fruits Script"
 
 _G.Discord = "https://discord.com/invite/fszbjR4Kpu"
@@ -4473,17 +4473,6 @@ local Library = Update:Window("World Hub","BLOX FRUIT",Enum.KeyCode.RightControl
 local TienTiny = Library:AddTab("Information","rbxassetid://10723415903")
 local Settings = Library:AddTab("Settings Farming","rbxassetid://10734950309")
 local Main = Library:AddTab("General","rbxassetid://10723407389")
-local M = Library:AddTab("Item & Quest","rbxassetid://10734975692")
-local Ss = Library:AddTab("Stats","rbxassetid://10709791523")
-local RaceV4 = Library:AddTab("Race V4","rbxassetid://10723375250")
-local EventGame = Library:AddTab("Game Event","rbxassetid://10709783577")
-local P = Library:AddTab("Local Player","rbxassetid://10747373176")
-local Status = Library:AddTab("Status Sever","rbxassetid://10723364725")
-local Visual = Library:AddTab("Visual","rbxassetid://10723374981")
-local R = Library:AddTab("Dungeon","rbxassetid://10709761722")
-local T = Library:AddTab("Teleport","rbxassetid://10734964188")
-local S = Library:AddTab("Shop","rbxassetid://10734952479")
-local D = Library:AddTab("Devil Fruit","rbxassetid://17747757759")
 --------------------------------------------------------------------------------------------------------
 TienTiny:AddSeperator("World Hub")
 TienTiny:UserMinhTien()
@@ -4499,7 +4488,7 @@ spawn(function()
     end
 end)
 
-TienTiny:AddSeperator("🧑‍💻 Developer 🧑‍💻")
+TienTiny:AddSeperator("🧸 Developer 🧸")
 TienTiny:AddLabel("Owner: Nhật Minh")
 TienTiny:AddSeperator("Social Network")
 TienTiny:AddButton('Discord Sever', function()
@@ -17386,7 +17375,7 @@ spawn(function()
         end
     end)
     end)
-FakeDamage(" WORLD HUB")
+FakeDamage("WORLD HUB")
 ----------------------------------------------------------------------------------------------------------------------------------------
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
